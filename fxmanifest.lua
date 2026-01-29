@@ -24,9 +24,8 @@ client_scripts {
 	'client/*.lua'
 }
 
-server_scripts { 
+server_scripts {
 	'@mysql-async/lib/MySQL.lua',
-	'html/main.js',
 	'config.lua',
 	'core/server-core.lua',
 	'sv_utils.lua',
@@ -62,5 +61,3 @@ escrow_ignore {
 	'core/client-core.lua',
 	'core/server-core.lua',
 }
-
-server_scripts { ".natives.js" }
