@@ -19,33 +19,33 @@ Config = {
             Blip = {color = 38, sprite = 60, size = 0.6}, -- Blip du métier
             Marker = {use = true, marker = 20, rgb = {15, 100, 210}, bobUpAndDown = true, rotate = false},
 
-            Duty = vector3(608.0304, 1.0756, 82.7600), -- Coordonnées prise/fin de service
+            Duty = vector3(441.7965, -982.0727, 30.6896), -- Coordonnées prise/fin de service (accueil LSPD)
             DutyBlips = true, -- Les policiers peuvent voir les autres policiers sur la carte.
 
             Cloakrooms = {
-                vector3(553.8309, 29.4656, 69.3572),
+                vector3(452.6207, -992.8282, 30.6896), -- Vestiaires LSPD
                 -- Vous pouvez en ajouter...
             },
 
             Armorys = {
-                vector3(605.5718, 20.5813, 82.7600),
+                vector3(452.6207, -980.1862, 30.6896), -- Armurerie LSPD
                 -- Vous pouvez en ajouter...
             },
 
             BossMenu = {
                 grades = {4},
                 coords = {
-                    vector3(608.2207, 10.6319, 91.5354),
+                    vector3(447.1034, -973.2411, 30.6896), -- Bureau du chef LSPD
                     -- Vous pouvez en ajouter...
                 }
             },
 
             Garages = {
                 {
-                    Label = 'Garage I.', -- Nom du garage
-                    menu = vector3(528.3946, 30.5107, 69.5110), -- Coordonnées du menu garage
-                    spawn = vector4(527.0367, 35.6097, 69.5110, 211.5390), -- Coordonnées de spawn véhicule
-                    deposit = vector3(527.0367, 35.6097, 69.5110), -- Zone de dépôt véhicule
+                    Label = 'Garage LSPD', -- Nom du garage
+                    menu = vector3(454.6019, -1017.4557, 28.0955), -- Parking LSPD
+                    spawn = vector4(447.4070, -1025.5765, 28.5349, 90.0), -- Spawn véhicule parking
+                    deposit = vector3(447.4070, -1025.5765, 28.5349), -- Zone de dépôt véhicule
 
                     vehicles = {
                         --['MODELE'] = {
