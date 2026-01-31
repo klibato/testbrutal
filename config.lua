@@ -539,7 +539,7 @@ Config = {
     -----------------------| TRADUCTION |----------------------
     -----------------------------------------------------------
 
-    MoneyForm = '€', -- Symbole monétaire
+    MoneyForm = '$', -- Symbole monétaire
 
     -- Labels des permis
     Licences = {
