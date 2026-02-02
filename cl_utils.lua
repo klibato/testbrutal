@@ -53,8 +53,8 @@ function InventoryOpenFunction(type, data)
         if Config.Inventory:lower() == 'ox_inventory' then
             exports.ox_inventory:openInventory('stash', 'society_'..data)
         elseif Config.Inventory:lower() == 'qb_inventory' then
-            TriggerServerEvent("inventory:server:OpenInventory", "stash", "policestash_"..QBCore.Functions.GetPlayerData().citizenid)
-            TriggerEvent("inventory:client:SetCurrentStash", "policestash_"..QBCore.Functions.GetPlayerData().citizenid)
+            TriggerServerEvent("inventory:server:OpenInventory", "stash", job.."_armory")
+            TriggerEvent("inventory:client:SetCurrentStash", job.."_armory")
         elseif Config.Inventory:lower() == 'quasar_inventory' then
             TriggerServerEvent("inventory:server:OpenInventory", "stash", "policestash_"..QBCore.Functions.GetPlayerData().citizenid)
             TriggerEvent("inventory:client:SetCurrentStash", "policestash_"..QBCore.Functions.GetPlayerData().citizenid)
