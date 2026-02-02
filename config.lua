@@ -23,12 +23,12 @@ Config = {
             DutyBlips = true, -- Les policiers peuvent voir les autres policiers sur la carte.
 
             Cloakrooms = {
-                vector3(452.6207, -992.8282, 30.6896), -- Vestiaires LSPD
+                vector3(457.1539, -988.4487, 30.6896), -- Vestiaires LSPD (casiers)
                 -- Vous pouvez en ajouter...
             },
 
             Armorys = {
-                vector3(452.6207, -980.1862, 30.6896), -- Armurerie LSPD
+                vector3(462.2393, -981.1197, 30.6896), -- Armurerie LSPD (cage aux armes)
                 -- Vous pouvez en ajouter...
             },
 
